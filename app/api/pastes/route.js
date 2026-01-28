@@ -1,5 +1,5 @@
 import { connectDB } from "@/lib/db";
-import Paste from "@/models/paste";
+import Paste from "@/lib/paste";
 import { NextResponse } from "next/server";
 
 const DEFAULT_TTL_SECONDS = 120;
